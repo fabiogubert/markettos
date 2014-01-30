@@ -11,3 +11,15 @@
  *= require_self
  *= require_tree .
  */
+
+body{ padding-top: 50px; }
+
+.os{ color: #E32D4C; }
+
+.table tr th{ text-align: center; }
+
+.table tr td{ text-align: center; }
+
+.row{ padding-bottom: 5px; }
+
+.col-md-2{ padding: 2px !important; }

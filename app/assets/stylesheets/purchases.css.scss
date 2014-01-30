@@ -1,3 +1,128 @@
 // Place all the styles related to the purchases controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$border: solid;
+
+#left{
+  border: $border;
+  height: 650px;
+  width: 570px;
+  position: fixed;
+
+}
+#items{
+  border: $border;
+  height: 550px;
+  width: 570px;
+  position: fixed;
+  overflow-y: auto;
+}
+
+#totals{
+  border: $border;
+  margin-top: 550px;
+  height: 100px;
+  width: 570px;
+  position: fixed;
+}
+
+#right{
+  border: $border;
+  height: 650px;
+  width: 570px;
+  margin-left: 570px;
+  position: fixed;
+}
+
+#search{
+  border: $border;
+  height: 400px;
+  width: 570px;
+  position: fixed;
+}
+#numpad{
+  border: $border;
+  margin-top: 400px;
+  height: 250px;
+  width: 570px;
+  position: fixed;
+}
+.num{
+  text-align: center;
+}
+#numpad-0{
+  border: $border;
+  margin-left: 190px;
+  margin-top: 186px;
+  height: 64px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-9{
+  border: $border;
+  margin-left: 380px;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-8{
+  border: $border;
+  margin-left: 190px;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-7{
+  border: $border;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-6{
+  border: $border;
+  margin-top: 62px;
+  margin-left: 380px;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-5{
+  border: $border;
+  margin-top: 62px;
+  margin-left: 190px;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-4{
+  border: $border;
+  margin-top: 62px;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-3{
+  border: $border;
+  margin-top: 124px;
+  margin-left: 380px;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-2{
+  border: $border;
+  margin-top: 124px;
+  margin-left: 190px;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
+#numpad-1{
+  border: $border;
+  margin-top: 124px;
+  height: 62px;
+  width: 190px;
+  position: fixed;
+}
