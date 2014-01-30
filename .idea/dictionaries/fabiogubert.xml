@@ -1,7 +1,9 @@
 <component name="ProjectDictionaryState">
   <dictionary name="fabiogubert">
     <words>
+      <w>bcrypt</w>
       <w>jbuilder</w>
+      <w>lookups</w>
       <w>markettos</w>
       <w>numpad</w>
       <w>sdoc</w>
