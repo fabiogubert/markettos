@@ -26,9 +26,10 @@
 }
 
 #search{
+  border: 1px solid black;
   height: 400px;
   width: 570px;
-  position: absolute;
+  float: left;
 }
 
 #numpad{
@@ -111,4 +112,10 @@
   padding-left: 85px;
   padding-right: 85px;
   padding-top: 15px;
+}
+
+#search_field{
+  margin-left: 15px;
+  height: 60px;
+  width: 400px;
 }
