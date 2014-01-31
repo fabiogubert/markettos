@@ -1,18 +1,57 @@
 <h2>Sign up</h2>
 
-<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => {:class => 'form-horizontal', :role => 'form' }) do |f| %>
   <%= devise_error_messages! %>
 
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email, :autofocus => true %></div>
+    <div class="form-group">
+        <%= f.label :first_name %>
+        <%= f.text_field :first_name, :autofocus => true , class: 'form-control' %>
+    </div>
 
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
+    <div class="form-group">
+        <%= f.label :last_name %>
+        <%= f.text_field :last_name, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+        <%= f.label :email %>
+        <%= f.email_field :email , class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :dob %>
+      <%= f.text_field :dob, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :role %>
+      <%= f.select :role, options_for_select([['Warehouse Worker','ww'], ['Clerk','clerk'], ['Admin','admin'], ['Member','member']]) %>
+    </div>
+    <div class="form-group">
+      <%= f.label :username %>
+      <%= f.text_field :username, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :address %>
+      <%= f.text_field :address, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :phone %>
+      <%= f.text_field :phone, class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :sex %>
+      <%= f.select :sex, options_for_select([['Male','male'], ['Female','female'], ['Not Sure','not_sure']]), class: 'form-control' %>
+    </div>
+    <div class="form-group">
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control'  %>
+    </div>
+    <div class="form-group">
+      <%= f.label :password_confirmation%>
+      <%= f.password_field :password_confirmation, class: 'form-control'  %>
+    </div>
 
-  <div><%= f.label :password_confirmation %><br />
-  <%= f.password_field :password_confirmation %></div>
+    <div class="well">
+      <%= f.submit 'Sign up', class: 'btn btn-default' %>
+    </div>
 
-  <div><%= f.submit "Sign up" %></div>
 <% end %>
-
-<%= render "devise/shared/links" %>
+</br>
