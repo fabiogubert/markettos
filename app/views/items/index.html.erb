@@ -17,8 +17,8 @@
         <td><%= item.name %></td>
         <td><%= item.price %></td>
         <td><%= item.location %></td>
-        <td><%= link_to 'Show', item %></td>
-        <td><%= link_to 'Edit', edit_item_path(item) %></td>
+        <td><%= link_to 'Show', item , class: 'btn btn-success' %></td>
+        <td><%= link_to 'Edit', edit_item_path(item), class: 'btn btn-info' %></td>
       </tr>
   <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Item', new_item_path %>
+<%= link_to 'New Item', new_item_path, class: 'btn btn-primary' %>
