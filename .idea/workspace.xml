@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4995e7ee-6db1-406e-855e-63b3d4e7a017" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140130093452_create_items.rb" afterPath="$PROJECT_DIR$/db/migrate/20140130093452_create_items.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="markettos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140130093452_create_items.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20140130093452_create_items.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140130093452_create_items.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="102" selection-end="102" vertical-scroll-proportion="0.07772021" vertical-offset="0" max-vertical-offset="579">
+            <state line="2" column="30" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="12" selection-start="853" selection-end="853" vertical-scroll-proportion="0.3298791" vertical-offset="49" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -101,6 +109,7 @@
         <option value="$PROJECT_DIR$/app/views/purchases/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20140130093452_create_items.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
       </list>
     </option>
   </component>
@@ -892,11 +901,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.5622189" vertical-offset="0" max-vertical-offset="1185" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="18" selection-start="663" selection-end="663" vertical-scroll-proportion="0.33733132" vertical-offset="0" max-vertical-offset="667" />
@@ -998,7 +1002,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140130093452_create_items.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="102" selection-end="102" vertical-scroll-proportion="0.07772021" vertical-offset="0" max-vertical-offset="579">
+        <state line="2" column="30" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="853" selection-end="853" vertical-scroll-proportion="0.3298791" vertical-offset="49" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
