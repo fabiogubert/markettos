@@ -36,7 +36,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/purchases/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="17" selection-start="849" selection-end="849" vertical-scroll-proportion="0.8918919" vertical-offset="0" max-vertical-offset="1320">
+            <state line="46" column="7" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.5675676" vertical-offset="375" max-vertical-offset="1290">
               <folding />
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file leaf-file-name="purchases.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/purchases.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="0" selection-start="1575" selection-end="1575" vertical-scroll-proportion="-71.875" vertical-offset="0" max-vertical-offset="1830">
+            <state line="106" column="1" selection-start="1453" selection-end="1453" vertical-scroll-proportion="-13.75" vertical-offset="1260" max-vertical-offset="1815">
               <folding />
             </state>
           </provider>
@@ -93,8 +93,8 @@
         <option value="$PROJECT_DIR$/db/migrate/20140130093452_create_items.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140131140814_fix_stupid_mistake.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/purchases.css.scss" />
         <option value="$PROJECT_DIR$/app/views/purchases/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/purchases.css.scss" />
       </list>
     </option>
   </component>
@@ -1046,14 +1046,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/purchases.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="0" selection-start="1575" selection-end="1575" vertical-scroll-proportion="-71.875" vertical-offset="0" max-vertical-offset="1830">
+        <state line="106" column="1" selection-start="1453" selection-end="1453" vertical-scroll-proportion="-13.75" vertical-offset="1260" max-vertical-offset="1815">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/purchases/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="17" selection-start="849" selection-end="849" vertical-scroll-proportion="0.8918919" vertical-offset="0" max-vertical-offset="1320">
+        <state line="46" column="7" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.5675676" vertical-offset="375" max-vertical-offset="1290">
           <folding />
         </state>
       </provider>
