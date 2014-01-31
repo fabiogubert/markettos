@@ -3,4 +3,7 @@
   <data-source source="LOCAL" name="Rails markettos: development" uuid="adc6db5e-b583-4f49-96dd-ef620b2256ea">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails markettos: test" uuid="5edc4df6-fa64-43ec-b334-f3e085b32b2a">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
