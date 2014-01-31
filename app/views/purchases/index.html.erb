@@ -24,24 +24,11 @@
 
 <div id="right">
   <div id="search">
-    <p>
     <%= form_tag items_path, :method => 'get', :id => "item_search" do %>
-        <p>
-          <%= text_field_tag :search, nil, :placeholder => "Search items here" %>
+          <%= text_field_tag :search, nil, :maxlength => 13,  :placeholder => "Search items here" %>
           <%= submit_tag "Search", :name => nil %>
-        </p>
     <% end %>
-    </p>
-      <p>
-      <% Item.all.each do |item| %>
-          <tr>
-            <td><%= item.name %></td>
-            <td><%= item.price %></td>
-            <td><%= link_to 'Remove', item, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-xs' %></td>
-          </tr>
-      <% end %>
-    </p>
-  </div>
+   </div>
   <div id="numpad">
     <div id="numpad-1" class="num">
       1
